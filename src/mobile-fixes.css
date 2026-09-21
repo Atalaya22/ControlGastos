@@ -1,6 +1,8 @@
 .form-card label { background: transparent !important; border: 0 !important; box-shadow: none !important; padding: 0 !important; }
-body { background: #080d17 !important; position: relative; }
-body::before { content: ''; position: fixed; z-index: 0; inset: 0; background: url('assets/abstract-glass-bg.png') center top / cover no-repeat; pointer-events: none; transform: translateZ(0); }
+html { background: #080d17 !important; }
+body { background: transparent !important; position: relative; }
+body::before { display: none; }
+html::before { content: ''; position: fixed; z-index: 0; inset: 0; background: url('assets/abstract-glass-bg.png') center top / cover no-repeat; pointer-events: none; transform: translate3d(0,0,0); }
 .shell { position: relative; z-index: 1; }
 .row { min-width: 0; }
 .row label { min-width: 0; overflow: hidden; }
