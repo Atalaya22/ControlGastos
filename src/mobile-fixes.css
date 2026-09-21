@@ -6,6 +6,7 @@ html::before { content: ''; position: fixed; z-index: 0; inset: 0; background: u
 .shell { position: relative; z-index: 1; }
 .salary-card{position:relative;margin-bottom:18px}.salary-copy{color:#a9beb6;margin:0 0 12px;font-size:13px}.salary-input{display:block;width:100%;margin:10px 0 3px;background:rgba(0,0,0,.2)!important;border:1px solid rgba(255,255,255,.18)!important;border-radius:10px;padding:13px!important;color:#b9a7ff!important;font-size:27px;font-weight:700;outline:none}.currency{position:absolute;right:30px;bottom:39px;color:#b9a7ff;font-size:22px;line-height:1;font-weight:700;transform:translateY(50%);pointer-events:none}.budget-card{margin-top:18px}.budget-card .donut-chart{min-height:260px}
 .add-salary{margin-top:12px;background:linear-gradient(135deg,#8b72ff,#4d9bff)!important;color:#fff!important;border:0!important}
+.income-stat strong{color:#b9a7ff!important}.salary-entry{display:flex;align-items:center;gap:10px}.salary-entry .salary-input{flex:1;margin:0}.salary-entry .currency{position:static;transform:none;margin-left:-45px;margin-right:10px}.salary-entry .add-salary{margin:0;white-space:nowrap}.income-list{margin-top:16px;border-top:1px solid rgba(255,255,255,.1)}.income-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08)}.income-row span{flex:1;color:#a9beb6}.income-row b{color:#f5fbf8}
 .row { min-width: 0; }
 .row label { min-width: 0; overflow: hidden; }
 .row input { min-width: 0 !important; width: 100% !important; max-width: 100%; }
